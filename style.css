@@ -1,0 +1,80 @@
+.navSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.logo{
+    width: 140px;
+}
+.sort {
+  border: none;
+  background-color: rgb(212, 212, 212);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 7px;
+}
+.blog {
+  border: none;
+  background-color: rgb(255, 31, 61);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  padding: 7px;
+}
+#contentSort{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.contentSort{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.btn{
+  cursor: pointer;
+}
+.imgBox{
+  width: 300px;
+}
+.imgPro{
+  width: 40px;
+  border-radius:20px;
+}
+.imgVer{
+  width: 20px;
+}
+.title{
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+.details{
+  margin-left: 60px;
+  margin-top: -10px;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
+}
+.time{
+  display: flex;
+}
+.blogContent{
+  font-size: 25px;
+align-items: center;
+justify-content: center;
+}
